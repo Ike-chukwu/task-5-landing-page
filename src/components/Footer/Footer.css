@@ -51,3 +51,18 @@
         width: 900px;
     }
 }
+
+
+@media(max-width: 990px) {
+    .footer-parent .footer-container {
+        width: 100%;
+        padding-inline: 2rem;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .footer-parent .footer-container .aspect {
+        align-items: center;
+    }
+
+}

@@ -19,6 +19,7 @@ nav .page {
     text-transform: capitalize;
 }
 
+
 nav .middle-content {
     display: flex;
     gap: 4rem;
@@ -37,4 +38,26 @@ nav .middle-content {
     nav {
         width: 900px;
     }
+}
+
+
+@media(max-width: 990px) {
+    nav {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    nav .logo {
+        width: 80px;
+    }
+
+    nav .middle-content {
+        gap: 2rem;
+    }
+
+    nav .page {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+
 }

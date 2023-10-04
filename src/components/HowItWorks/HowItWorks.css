@@ -107,3 +107,44 @@
     }
 
 }
+
+
+@media(max-width: 990px) {
+
+    .works-parent .works-container {
+        width: 100%;
+        padding-inline: 2rem;
+        margin-top: 6rem;
+    }
+
+    .works-parent .works-container .recording-pack {
+        flex-direction: column;
+        width: 100%;
+        gap: 4rem;
+    }
+
+    .works-parent .works-container .recording-pack .recording-details {
+        width: 100%;
+    }
+
+    .works-parent .works-container .recording-pack .recording-details .briefing-recording {
+
+        width: 100%;
+    }
+
+    .works-parent .works-container .pic-pack {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .works-parent .works-container .pic-pack .pic {
+        width: 100%;
+    }
+
+
+    .works-parent .works-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+}

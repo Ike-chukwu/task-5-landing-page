@@ -44,12 +44,42 @@
 
 @media (max-width: 1479px) {
     .hero-container {
-      width: 1200px;
+        width: 1200px;
     }
-  }
+}
 
-  @media(max-width: 1233px) {
+@media(max-width: 1233px) {
     .hero-container {
         width: 900px;
+    }
+}
+
+
+@media(max-width:990px) {
+    .hero-container {
+        width: 100%;
+        padding-inline: 2rem;
+        flex-direction: column-reverse;
+        gap: 5rem;
+        padding-block: 3rem;
+    }
+
+    .hero-container .left-hand {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-container .left-hand .heading {
+        font-size: 3rem;
+    }
+
+    .hero-container .left-hand .text {
+        margin-block: 2rem;
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .hero-container .image-container {
+        width: 100%;
     }
 }
