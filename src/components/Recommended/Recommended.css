@@ -1,0 +1,52 @@
+.recommended-parent {
+    background: #E7E7ED;
+    padding-block: 4rem;
+}
+
+
+.recommended-parent .recommended-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+
+.recommended-parent .recommended-container .title-header {
+    color: #141414;
+    text-align: center;
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 600px;
+}
+
+.recommended-parent .recommended-container .purple-btn {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    padding: 1rem 3.2rem;
+    background: #120B48;
+    color: white;
+}
+
+.recommended-parent .recommended-container .account-prompt {
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.recommended-parent .recommended-container .account-prompt .link-prompt {
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #120B48;
+}

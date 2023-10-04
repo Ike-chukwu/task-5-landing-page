@@ -1,0 +1,109 @@
+.works-parent {
+    padding-block: 10rem;
+}
+
+
+.works-parent .works-title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.works-parent .works-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+
+.works-parent .works-container .recording-pack {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+
+.works-parent .works-container .recording-pack .recording-details {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    width: 28%;
+}
+
+
+.works-parent .works-container .recording-pack .recording-details .purple-number {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+    background: #120B48;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+
+.works-parent .works-container .recording-pack .recording-details .detail-heading {
+    color: #1B233D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.works-parent .works-container .recording-pack .recording-details .briefing-recording {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.3%;
+    width: 300px;
+    margin-inline: auto;
+}
+
+.works-parent .works-container .pic-pack {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    align-items: center;
+}
+
+
+.works-parent .works-container .pic-pack .pic {
+    width: 350px;
+}
+
+
+.works-parent .works-container .pic-pack .pic img {
+    width: 100%;
+}
+
+
+
+@media(max-width: 1233px) {
+
+    .works-parent .works-container {
+        width: 900px;
+
+    }
+
+    .works-parent .works-container .recording-pack .recording-details .briefing-recording {
+
+        width: 250px;
+    }
+
+    .works-parent .works-container .pic-pack .pic {
+        width: 280px;
+    }
+
+}

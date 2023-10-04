@@ -1,0 +1,192 @@
+.video-hero-parent .video-hero-container {
+    width: 1440px;
+    margin-inline: auto;
+    padding-block: 8rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.video-hero-parent .video-hero-container .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: flex-start;
+    width: 46%;
+}
+
+.video-hero-parent .video-hero-container .left-side .title {
+    font-family: Sora;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .video-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .video-details .label {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.video-hero-parent .video-hero-container .left-side .video-details .vid-name-pack {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.video-hero-parent .video-hero-container .left-side .video-details .vid-name-pack .vid-name {
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .email-details {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border: 0.5px solid var(--primary-primary-50, #E7E7ED);
+    background: rgba(182, 179, 198, 0.20);
+}
+
+
+.video-hero-parent .video-hero-container .left-side .email-detail-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.video-hero-parent .video-hero-container .left-side .email-detail-parent .video-title {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: black
+}
+
+.video-hero-parent .video-hero-container .left-side .email-detail-parent .email-details {
+    border-radius: 16px;
+    border: 0.5px solid #929292;
+    background: #FAFAFA;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .email-details input {
+    border: none;
+    width: 85%;
+    height: 100%;
+    background: none;
+    outline: none;
+}
+
+.video-hero-parent .video-hero-container .left-side .email-details .vid-name-pack {
+    color: white;
+    background: #605C84;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .last-pack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+
+.video-hero-parent .video-hero-container .left-side .last-pack .inner-share {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.video-hero-parent .video-hero-container .left-side .last-pack .inner-share .share-pack {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border: .1rem solid black;
+    width: 30%;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.video-hero-parent .video-hero-container .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: flex-start;
+    width: 46%;
+    padding-left: 5rem;
+    border-left: .1rem solid black;
+}
+
+.video-hero-parent .video-hero-container .right-side .image{
+    width: 100%;
+}
+
+.video-hero-parent .video-hero-container .right-side .first-part {
+    width: 100%;
+}
+
+
+.video-hero-parent .video-hero-container .right-side .first-part .vid {
+    width: 100%;
+}
+
+
+.video-hero-parent .video-hero-container .right-side .first-part .video-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: .1rem solid black;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: .4rem;
+}
+
+
+.video-hero-parent .video-hero-container .right-side .first-part .video-detail .time {
+    font-size: 2rem;
+}
+
+
+.video-hero-parent .video-hero-container .right-side .first-part .video-detail .other-end {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+
+.video-hero-parent .video-hero-container .right-side .first-part .video-detail .other-end .icon-pack{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.6rem;
+    align-items: center;
+    text-transform: capitalize;
+}

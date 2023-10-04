@@ -1,0 +1,55 @@
+.hero-container {
+    width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 8rem;
+}
+
+
+.hero-container .left-hand {
+    width: 40%;
+}
+
+
+.hero-container .left-hand .heading {
+    font-size: 5rem;
+}
+
+
+.hero-container .left-hand .text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-block: 4rem;
+}
+
+.hero-container .left-hand .purple-btn {
+    font-size: 1.8rem;
+    color: white;
+    background: #120B48;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+}
+
+
+.hero-container .image-container {
+    width: 50%;
+}
+
+.hero-container .image-container img {
+    width: 100%;
+}
+
+
+@media (max-width: 1479px) {
+    .hero-container {
+      width: 1200px;
+    }
+  }
+
+  @media(max-width: 1233px) {
+    .hero-container {
+        width: 900px;
+    }
+}

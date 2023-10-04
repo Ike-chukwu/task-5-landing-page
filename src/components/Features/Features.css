@@ -1,0 +1,115 @@
+.features-parent {
+    padding-block: 8rem;
+}
+
+.features-parent .title-pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+
+.features-parent .title-pack .features-heading {
+    font-size: 4rem;
+}
+
+
+.features-parent .title-pack .sub-text {
+    font-size: 1.8rem;
+    color: grey;
+}
+
+
+.features-parent .features-container {
+    width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+
+.features-parent .features-container .left-features-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.features-parent .features-container .left-features-side .box {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+
+.features-parent .features-container .left-features-side .box img {
+    width: 40px;
+    height: 40px;
+}
+
+.features-parent .features-container .left-features-side .box .feature-brief {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.features-parent .features-container .left-features-side .box .feature-brief .heading {
+    font-size: 2.8rem;
+}
+
+.features-parent .features-container .left-features-side .box .feature-brief .feature-brief {
+    font-size: 1.8rem;
+    width: 80%;
+}
+
+
+.features-parent .features-container .right-features-side {
+    width: 55%;
+}
+
+.features-parent .features-container .right-features-side img {
+    width: 100%;
+}
+
+
+
+@media (max-width: 1479px) {
+    .features-parent .features-container {
+        width: 1200px;
+    }
+}
+
+@media(max-width: 1233px) {
+    .features-parent .features-container {
+        width: 900px;
+    }
+
+    .features-parent .features-container .left-features-side .box img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .features-parent .features-container .left-features-side .box .feature-brief {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
+    .features-parent .features-container .left-features-side .box .feature-brief .heading {
+        font-size: 2rem;
+    }
+    
+    .features-parent .features-container .left-features-side .box .feature-brief .feature-brief {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+
+    .features-parent .features-container .right-features-side {
+        width: 60%;
+    }
+}
